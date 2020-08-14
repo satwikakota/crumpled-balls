@@ -1,7 +1,6 @@
 class DustbinIMG {
     constructor(x, y,w,h) {
       var options = {
-          'restitution':0.8,
           isStatic:true 
       }
       this.image=loadImage("Sprites/dustbingreen.png"); 
@@ -14,9 +13,10 @@ class DustbinIMG {
     display(){
       var pos =this.body.position;
       push();
-      //translate(pos.x, pos.y); 
+      //translate(0,0);
+      translate(pos.x, pos.y); 
       imageMode(CENTER);
-        image(this.image,pos.x,pos.y, this.width, this.height);
+        image(this.image,0,0, this.width, this.height);
       pop();
     }
   };

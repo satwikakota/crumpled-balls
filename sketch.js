@@ -14,10 +14,10 @@ function setup() {
 
 	ground1= new Ground(350,height,900,5); 
 	paper1= new Paper(100,630,70); 
-	dustbin1= new Dustbin(600,650,20,100); 
+	dustbin1= new Dustbin(600,650,20,400); 
 	dusbin2= new Dustbin(500,700,200,20); 
-	dustbin3= new Dustbin(400,650,20,100); 
-	dustbinIMG= new DustbinIMG(500,580,250,250); 
+	dustbin3= new Dustbin(400,650,20,400); 
+	dustbinIMG= new DustbinIMG(500,700,200,300); 
   }
 
 

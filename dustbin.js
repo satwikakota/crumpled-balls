@@ -1,7 +1,7 @@
 class Dustbin {
     constructor(x, y,w,h) {
       var options = {
-          'restitution':0.8,
+          restitution:0.8,
           isStatic:true 
       } 
       this.body = Bodies.rectangle(x, y, w, h, options);
